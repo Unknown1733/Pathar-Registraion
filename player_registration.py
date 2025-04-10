@@ -31,7 +31,7 @@ with st.form("player_form"):
     name = st.text_input("Player Name")
     village = st.text_input("Village")
     category = st.selectbox("Category", ["All Rounder", "Batsman", "Bowler", "Wicket Keeper"])
-    tshirt_size = st.selectbox("T-Shirt Size", ["S", "M", "L", "XL", "XXL"])
+    tshirt_size = st.text_input("T-Shirt Size")
     mobile = st.text_input("Mobile Number")
     photo = st.file_uploader("Upload Photo", type=["jpg", "jpeg", "png"])
 
